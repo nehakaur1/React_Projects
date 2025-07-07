@@ -23,7 +23,7 @@ function App() {
   };
   return (
     <>
-      <h1>This Is Basic One</h1>
+      <h1>Learning Hooks</h1>
       <h2>MyMoney {MyMoney}</h2>
       <br></br>
       <button onClick={addmoney}>Please Add Money, {MyMoney}</button>
