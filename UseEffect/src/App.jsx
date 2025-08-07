@@ -34,7 +34,7 @@ function App() {
       >
         add
       </button>
-      <p>This component has rendered {value.current} times</p>
+      {/* <p>This component has rendered {value.current} times</p> */}
     </>
   );
 }
