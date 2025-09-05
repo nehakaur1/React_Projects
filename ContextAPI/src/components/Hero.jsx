@@ -1,7 +1,7 @@
 import React from "react";
 import Zero from "./Zero";
 // this is called prop drilling we need username for zero component but we paas it to hero so it can react to that
-function Hero({username, myobj,myarr,buttontext="click on me " ,msg="I Love My Mummy And Papa"}) {
+function Hero({ myobj,myarr,buttontext="click on me " ,msg="I Love My Mummy And Papa"}) {
     console.log(myobj,myarr)
   return (
     <div class="bg-black">
@@ -62,7 +62,7 @@ function Hero({username, myobj,myarr,buttontext="click on me " ,msg="I Love My M
           </div>
         </div>
       </div>
-      <Zero zusername={username} />
+      <Zero />
     </div>
   );
 }
